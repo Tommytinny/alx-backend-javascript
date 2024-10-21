@@ -18,15 +18,15 @@ export default class HolbertonCourse {
   }
 
   get name() {
-    return `${this._name}`;
+    return this._name;
   }
 
   get length() {
-    return `${this._length}`;
+    return this._length;
   }
 
   get students() {
-    return `${this._students}`;
+    return this._students;
   }
 
   set name(name) {
