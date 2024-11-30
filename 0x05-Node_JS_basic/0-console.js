@@ -1,3 +1,3 @@
-module.exports = function displayMessage(d) {
-  process.stdout.write(d + '\n');
+module.exports = function displayMessage(msg) {
+  process.stdout.write(msg + '\n');
 }
